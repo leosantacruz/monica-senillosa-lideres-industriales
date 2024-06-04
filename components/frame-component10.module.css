@@ -1,0 +1,57 @@
+.k1 {
+  font-size: var(--font-size-21xl);
+}
+.k {
+  margin-top: -14.200000000000044px;
+  flex: 1;
+  position: relative;
+  line-height: 82px;
+}
+.kWrapper {
+  align-self: stretch;
+  height: 53.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.certificadas,
+.empresas {
+  margin: 0;
+}
+.empresasCertificadas {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-100);
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-lightgreen);
+  font-family: var(--font-helvetica-neue);
+}
+@media screen and (max-width: 800px) {
+  .k {
+    font-size: var(--font-size-13xl);
+    line-height: 61px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .k {
+    font-size: var(--font-size-5xl);
+    line-height: 46px;
+  }
+}

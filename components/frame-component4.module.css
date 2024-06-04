@@ -1,0 +1,115 @@
+.image1Icon {
+  width: 363px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 610px;
+  max-width: 100%;
+}
+.fundadoraDeAqesiMaster {
+  margin: 0;
+}
+.fundadoraDeAqesiMasterContainer {
+  align-self: stretch;
+  height: 397px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03px;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.download {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.descargarCv {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 115px;
+}
+.downloadParent {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+  color: var(--main);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 470px;
+  max-width: 100%;
+}
+.frameWrapper,
+.image1Parent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image1Parent {
+  width: 1226px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  gap: var(--gap-41xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-53xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-helvetica-neue);
+}
+@media screen and (max-width: 1150px) {
+  .image1Icon {
+    flex: 1;
+  }
+  .image1Parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup,
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .frameParent {
+    min-width: 100%;
+  }
+  .image1Parent {
+    gap: var(--gap-11xl);
+  }
+  .frameWrapper {
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
