@@ -43,8 +43,8 @@
   color: var(--color-slategray);
 }
 .frameGroup,
-.frameParent,
-.frameWrapper {
+.frameInner,
+.frameParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -54,8 +54,8 @@
   flex-direction: column;
   gap: var(--gap-xs);
 }
-.frameParent,
-.frameWrapper {
+.frameInner,
+.frameParent {
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -68,7 +68,7 @@
   padding: var(--padding-9xl) var(--padding-10xl);
   gap: var(--gap-5xl);
 }
-.frameWrapper {
+.frameInner {
   width: 522px;
   flex-shrink: 0;
   flex-direction: row;
@@ -79,7 +79,7 @@
   font-family: var(--font-helvetica-neue);
 }
 @media screen and (max-width: 800px) {
-  .frameWrapper {
+  .frameInner {
     gap: var(--gap-41xl);
   }
 }
@@ -91,7 +91,7 @@
   .joeDoeParent {
     flex-wrap: wrap;
   }
-  .frameWrapper {
+  .frameInner {
     gap: var(--gap-11xl);
   }
 }

@@ -11,7 +11,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({
   group14,
 }) => {
   return (
-    <div className={[styles.frameWrapper, className].join(" ")}>
+    <div className={[styles.frameInner, className].join(" ")}>
       <div className={styles.frameParent}>
         <img
           className={styles.frameChild}

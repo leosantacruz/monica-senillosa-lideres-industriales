@@ -36,11 +36,13 @@ body {
   --color-white: #fff;
   --color-ghostwhite: #f7fbff;
   --color-slategray: #5d6a83;
+  --color-darkslateblue-100: #073f82;
   --main: #003366;
   --color-gainsboro: #d9d9d9;
   --color-darkslategray-100: #416775;
   --color-darkslategray-200: #323b4b;
   --color-honeydew-100: #e8ffef;
+  --color-honeydew-300: #ddffe9;
   --color-honeydew-200: #ddffe8;
   --color-gray-100: #797979;
   --color-gray-200: #0c1f3d;
@@ -53,7 +55,9 @@ body {
   --color-black: #000;
 
   /* Gaps */
-  --gap-29xl: 48px;
+  --gap-101xl: 120px;
+  --gap-41xl: 60px;
+  --gap-11xl: 30px;
   --gap-5xl: 24px;
   --gap-xl: 20px;
   --gap-base: 16px;
@@ -61,19 +65,13 @@ body {
   --gap-18xl: 37px;
   --gap-9xl: 28px;
   --gap-3xs: 10px;
-  --gap-41xl: 60px;
   --gap-mini: 15px;
-  --gap-11xl: 30px;
   --gap-9xs: 4px;
   --gap-23xl: 42px;
   --gap-2xl: 21px;
+  --gap-29xl: 48px;
   --gap-xs: 12px;
   --gap-13xl: 32px;
-  --gap-30xl: 49px;
-  --gap-39xl: 58px;
-  --gap-10xl: 29px;
-  --gap-34xl: 53px;
-  --gap-7xl: 26px;
   --gap-20xl: 39px;
   --gap-lgi: 19px;
   --gap-21xl: 40px;
@@ -89,13 +87,12 @@ body {
   --padding-xs: 12px;
   --padding-7xs: 6px;
   --padding-6xs: 7px;
-  --padding-178xl: 197px;
-  --padding-109xl: 128px;
-  --padding-64xl: 83px;
+  --padding-217xl: 236px;
+  --padding-134xl: 153px;
+  --padding-80xl: 99px;
   --padding-133xl-5: 152.5px;
   --padding-61xl: 80px;
   --padding-45xl: 64px;
-  --padding-80xl: 99px;
   --padding-21xl: 40px;
   --padding-13xl: 32px;
   --padding-29xl: 48px;
@@ -110,10 +107,9 @@ body {
   --padding-123xl: 142px;
   --padding-9xl: 28px;
   --padding-10xl: 29px;
-  --padding-53xl: 72px;
+  --padding-5xl-5: 24.5px;
+  --padding-50xl: 69px;
   --padding-15xl: 34px;
-  --padding-28xl: 47px;
-  --padding-12xl: 31px;
   --padding-155xl: 174px;
   --padding-68xl: 87px;
   --padding-4xs-5: 8.5px;
@@ -122,6 +118,7 @@ body {
   --padding-mid: 17px;
   --padding-mini-2: 14.2px;
   --padding-6xl: 25px;
+  --padding-64xl: 83px;
   --padding-33xl-5: 52.5px;
   --padding-35xl: 54px;
   --padding-48xl-5: 67.5px;

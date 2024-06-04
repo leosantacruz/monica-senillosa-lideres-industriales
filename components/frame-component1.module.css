@@ -293,8 +293,7 @@
 }
 .frameWrapper {
   align-self: stretch;
-  padding: 0 0 var(--padding-178xl);
-  flex-shrink: 0;
+  padding: 0 0 var(--padding-217xl);
   text-align: left;
   font-size: var(--font-size-23xl);
   color: var(--color-gray-200);
@@ -319,7 +318,7 @@
     box-sizing: border-box;
   }
   .frameWrapper {
-    padding-bottom: var(--padding-109xl);
+    padding-bottom: var(--padding-134xl);
     box-sizing: border-box;
   }
 }
@@ -377,7 +376,7 @@
     box-sizing: border-box;
   }
   .frameWrapper {
-    padding-bottom: var(--padding-64xl);
+    padding-bottom: var(--padding-80xl);
     box-sizing: border-box;
   }
 }

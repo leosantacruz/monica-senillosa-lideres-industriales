@@ -9,14 +9,14 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
   className = "",
 }) => {
   return (
-    <header className={[styles.homeAppLogoParent, className].join(" ")}>
+    <header className={[styles.navbar, className].join(" ")}>
       <img
-        className={styles.homeAppLogoIcon}
+        className={styles.logoIcon}
         loading="lazy"
         alt=""
         src="/home-app-logo.svg"
       />
-      <div className={styles.frameParent}>
+      <div className={styles.menulinks}>
         <div className={styles.inicioWrapper}>
           <a className={styles.inicio}>Inicio</a>
         </div>
@@ -26,7 +26,7 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
         <div className={styles.metodologaWrapper}>
           <a className={styles.metodologa}>Metodología</a>
         </div>
-        <button className={styles.contactoWrapper}>
+        <button className={styles.contactbutton}>
           <a className={styles.contacto}>Contacto</a>
         </button>
       </div>

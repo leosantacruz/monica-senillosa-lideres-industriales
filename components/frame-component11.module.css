@@ -1,4 +1,4 @@
-.homeAppLogoIcon {
+.logoIcon {
   height: 41px;
   width: 36.1px;
   position: relative;
@@ -64,14 +64,14 @@
   min-width: 77px;
   white-space: nowrap;
 }
-.contactoWrapper,
-.frameParent,
-.homeAppLogoParent {
+.contactbutton,
+.menulinks,
+.navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.contactoWrapper {
+.contactbutton {
   cursor: pointer;
   border: 0;
   padding: var(--padding-mini) var(--padding-27xl);
@@ -80,18 +80,18 @@
   background: linear-gradient(180deg, #c1ffd6, #58da6d);
   justify-content: center;
 }
-.frameParent,
-.homeAppLogoParent {
+.menulinks,
+.navbar {
   box-sizing: border-box;
   max-width: 100%;
 }
-.frameParent {
+.menulinks {
   flex: 1;
   justify-content: flex-end;
   padding: 0 0 0 var(--padding-526xl);
   gap: var(--gap-base);
 }
-.homeAppLogoParent {
+.navbar {
   align-self: stretch;
   justify-content: center;
   padding: 0 var(--padding-40xl) 0 var(--padding-41xl);
@@ -102,25 +102,27 @@
   font-family: var(--font-helvetica-neue);
 }
 @media screen and (max-width: 1350px) {
-  .frameParent {
+  .menulinks {
     padding-left: var(--padding-253xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 800px) {
-  .frameParent {
-    display: none;
-    padding-left: var(--padding-117xl);
+  .menulinks,
+  .navbar {
     box-sizing: border-box;
   }
-  .homeAppLogoParent {
+  .menulinks {
+    display: none;
+    padding-left: var(--padding-117xl);
+  }
+  .navbar {
     padding-left: var(--padding-11xl);
     padding-right: var(--padding-10xl);
-    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .frameParent {
+  .menulinks {
     padding-left: var(--padding-xl);
     box-sizing: border-box;
   }

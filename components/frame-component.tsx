@@ -7,10 +7,10 @@ export type FrameComponentType = {
 
 const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
   return (
-    <footer className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.frameGroup}>
-        <div className={styles.frameContainer}>
-          <div className={styles.frameDiv}>
+    <footer className={[styles.footer, className].join(" ")}>
+      <div className={styles.frameParent}>
+        <div className={styles.frameGroup}>
+          <div className={styles.frameContainer}>
             <div className={styles.homeAppLogoParent}>
               <img
                 className={styles.homeAppLogoIcon}
@@ -33,7 +33,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
                 </div>
               </div>
             </div>
-            <div className={styles.frameParent1}>
+            <div className={styles.frameDiv}>
               <div className={styles.lideresIndustrialesWrapper}>
                 <div className={styles.lideresIndustriales}>
                   Lideres industriales
@@ -44,7 +44,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className={styles.frameParent2}>
+          <div className={styles.frameParent1}>
             <div className={styles.inicioWrapper}>
               <div className={styles.inicio}>Inicio</div>
             </div>
@@ -59,7 +59,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <img className={styles.frameItem} alt="" src="/vector-15.svg" />
+        <img
+          className={styles.frameItem}
+          loading="lazy"
+          alt=""
+          src="/vector-15.svg"
+        />
       </div>
       <div className={styles.copyrightLideresIndustriales}>
         ©Copyright Lideres Industriales. Todos los derechos reservados

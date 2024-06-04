@@ -8,7 +8,7 @@ export type FrameComponent9Type = {
 
 const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
+    <div className={[styles.hero, className].join(" ")}>
       <div className={styles.certificacinDeLderesIndusParent}>
         <h1 className={styles.certificacinDeLderes}>
           Certificación de Líderes Industriales
@@ -22,9 +22,9 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
           <div className={styles.contacto}>Contacto</div>
         </button>
       </div>
-      <div className={styles.frameWrapper}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameContainer}>
+      <div className={styles.heroInner}>
+        <div className={styles.frameParent}>
+          <div className={styles.frameWrapper}>
             <div className={styles.portraitOfCompanyLeadersAnParent}>
               <img
                 className={styles.portraitOfCompanyLeadersAnIcon}
@@ -32,30 +32,30 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
                 alt=""
                 src="/portraitofcompanyleadersandtheiremployeesin20231127050633utc-1@2x.png"
               />
-              <div className={styles.frameDiv}>
+              <div className={styles.frameContainer}>
                 <div className={styles.productividadWrapper}>
                   <b className={styles.productividad}>PRODUCTIVIDAD</b>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.frameWrapper1}>
+          <div className={styles.frameDiv}>
             <div className={styles.rentabilidadWrapper}>
               <b className={styles.rentabilidad}>RENTABILIDAD</b>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.frameWrapper2}>
-        <div className={styles.frameParent1}>
-          <div className={styles.frameWrapper3}>
-            <div className={styles.frameWrapper4}>
+      <div className={styles.heroChild}>
+        <div className={styles.frameGroup}>
+          <div className={styles.frameWrapper1}>
+            <div className={styles.frameWrapper2}>
               <div className={styles.rentabilidadContainer}>
                 <b className={styles.rentabilidad1}>RENTABILIDAD</b>
               </div>
             </div>
           </div>
-          <div className={styles.frameParent2}>
+          <div className={styles.frameParent1}>
             <div className={styles.parent}>
               <div className={styles.div}>
                 <span>30</span>
@@ -69,7 +69,7 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
             <FrameComponent10 />
             <FrameComponent10 />
           </div>
-          <div className={styles.frameWrapper5}>
+          <div className={styles.frameWrapper3}>
             <div className={styles.bxlFacebooksvgParent}>
               <div className={styles.bxlFacebooksvg}>
                 <img

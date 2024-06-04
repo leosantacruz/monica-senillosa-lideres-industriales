@@ -40,7 +40,7 @@
   font-weight: 500;
   color: var(--color-slategray);
 }
-.frameDiv {
+.frameContainer {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -263,8 +263,8 @@
   justify-content: center;
   white-space: nowrap;
 }
-.frameGroup,
-.frameParent1 {
+.frameDiv,
+.frameGroup {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -272,7 +272,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frameParent1 {
+.frameDiv {
   align-self: stretch;
   padding: 0 var(--padding-155xl) 0 0;
   gap: var(--gap-5xl);
@@ -296,11 +296,15 @@
 }
 .workersMeetingInEngineeringWrapper {
   width: 652px;
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
   min-width: 652px;
+}
+.features,
+.frameParent,
+.workersMeetingInEngineeringWrapper {
+  display: flex;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .frameParent {
@@ -313,25 +317,10 @@
   box-sizing: border-box;
   gap: var(--gap-41xl);
 }
-.frameContainer,
-.frameParent,
-.frameWrapper {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.frameContainer {
-  flex: 1;
+.features {
+  align-self: stretch;
   flex-direction: column;
   align-items: flex-end;
-}
-.frameWrapper {
-  align-self: stretch;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0 0 var(--padding-53xl);
-  box-sizing: border-box;
-  flex-shrink: 0;
   text-align: left;
   font-size: var(--font-size-23xl);
   color: var(--color-gray-200);
@@ -355,20 +344,16 @@
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
-  .frameWrapper {
-    padding-bottom: var(--padding-28xl);
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 800px) {
   .beneficiosYSoluciones {
     font-size: var(--font-size-15xl);
     line-height: 48px;
   }
-  .frameDiv {
+  .frameContainer {
     gap: var(--gap-base);
   }
-  .frameParent1 {
+  .frameDiv {
     padding-right: var(--padding-68xl);
     box-sizing: border-box;
   }
@@ -395,12 +380,8 @@
   .checkParent3 {
     flex-wrap: wrap;
   }
-  .frameParent1 {
+  .frameDiv {
     padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .frameWrapper {
-    padding-bottom: var(--padding-12xl);
     box-sizing: border-box;
   }
 }
