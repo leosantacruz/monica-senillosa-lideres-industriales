@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import styles from "./frame-component4.module.css";
 
 export type FrameComponent4Type = {
   className?: string;
@@ -13,13 +12,17 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({
   volunteerActivism,
 }) => {
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
-      <button className={styles.nivel1Wrapper}>
-        <div className={styles.nivel1}>{nIVEL1}</div>
+    <div
+      className={`self-stretch flex flex-col items-center justify-start gap-[32px] mq450:gap-[16px] ${className}`}
+    >
+      <button className="cursor-pointer [border:none] py-4 px-5 bg-aquamarine-100 self-stretch rounded-t-xl rounded-b-none flex flex-row items-center justify-center opacity-[0.6] whitespace-nowrap hover:bg-darkseagreen">
+        <div className="relative text-lg tracking-[0.12em] leading-[23px] font-helvetica-neue text-black text-left inline-block min-w-[80px]">
+          {nIVEL1}
+        </div>
       </button>
-      <div className={styles.volunteerActivism}>
+      <div className="rounded-xl bg-aquamarine-200 flex flex-col items-center justify-start p-4">
         <img
-          className={styles.volunteerActivismIcon}
+          className="w-[35px] h-[34px] relative"
           loading="lazy"
           alt=""
           src={volunteerActivism}
