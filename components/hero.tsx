@@ -28,7 +28,7 @@ const Hero: NextPage<HeroType> = ({ className = "" }) => {
       <div className="w-[404px] flex flex-col items-start justify-start pt-[273px] px-0 pb-0 box-border max-w-full mq450:pt-[177px] mq450:box-border">
         <div className="w-[211px] flex flex-col items-start justify-start py-0 pr-5 pl-0 box-border gap-[48px]">
           <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-2">
-            <div className="flex-1 flex flex-row items-start justify-start relative">
+            <div className="flex-1 flex flex-row items-start justify-start py-0 px-0 relative">
               <img
                 className="h-[581px] w-[464px] absolute !m-[0] top-[-316px] right-[-356px] rounded-t-181xl rounded-b-none object-cover"
                 loading="lazy"
@@ -80,7 +80,7 @@ const Hero: NextPage<HeroType> = ({ className = "" }) => {
           </div>
           <div className="h-[286px] w-[58px] flex flex-col items-start justify-start">
             <div className="self-stretch flex flex-col items-start justify-start gap-[12px]">
-              <div className="self-stretch h-[42px] rounded-tl-41xl rounded-tr-none rounded-br-none rounded-bl-41xl bg-cornflowerblue overflow-hidden shrink-0 flex flex-row items-center justify-center p-4 box-border">
+              <div className="rounded-tl-41xl rounded-tr-none rounded-br-none rounded-bl-41xl bg-cornflowerblue overflow-hidden flex flex-row items-center justify-center py-[12.1px] px-5">
                 <img
                   className="h-[17.8px] w-[17.9px] relative"
                   loading="lazy"
@@ -88,7 +88,7 @@ const Hero: NextPage<HeroType> = ({ className = "" }) => {
                   src="/group-2.svg"
                 />
               </div>
-              <div className="self-stretch h-[42px] rounded-tl-41xl rounded-tr-none rounded-br-none rounded-bl-41xl bg-cornflowerblue overflow-hidden shrink-0 flex flex-row items-center justify-center p-4 box-border relative">
+              <div className="self-stretch h-[42px] rounded-tl-41xl rounded-tr-none rounded-br-none rounded-bl-41xl bg-cornflowerblue overflow-hidden shrink-0 flex flex-row items-center justify-center pt-3 pb-[13px] pr-[21px] pl-[19px] box-border relative">
                 <img
                   className="h-[17px] w-[17px] absolute !m-[0] top-[12px] left-[19.5px]"
                   loading="lazy"
