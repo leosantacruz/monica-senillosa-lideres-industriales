@@ -1,5 +1,5 @@
 {
-  "name": "monica_senillosa",
+  "name": "monica_senillosa_-_1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export -o build/",
     "start": "next start",
     "lint": "next lint"
   }

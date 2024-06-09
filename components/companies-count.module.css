@@ -2,12 +2,12 @@
   font-size: var(--font-size-21xl);
 }
 .k {
-  margin-top: -14.200000000000044px;
+  margin-top: -14.2px;
   flex: 1;
   position: relative;
   line-height: 82px;
 }
-.kWrapper {
+.companiesNumber {
   align-self: stretch;
   height: 53.5px;
   overflow: hidden;
@@ -30,7 +30,7 @@
   font-family: var(--font-inter);
   color: var(--color-darkslategray-100);
 }
-.frameParent {
+.companiesCount {
   align-self: stretch;
   border-radius: var(--br-5xl);
   display: flex;

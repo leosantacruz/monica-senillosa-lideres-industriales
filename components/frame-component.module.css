@@ -1,230 +1,381 @@
-.homeAppLogoIcon,
-.vectorIcon {
-  width: 36.1px;
-  height: 41px;
+.estamosAquPara {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 300;
+}
+.infoIcons {
+  height: 33px;
+  width: 32px;
   position: relative;
 }
-.vectorIcon {
-  height: 17px;
-  width: 17px;
+.contactLinks {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 163px;
 }
-.vectorIcon1 {
-  height: 35.29%;
-  width: 35.88%;
-  position: absolute;
-  margin: 0 !important;
-  top: 32.35%;
-  right: 31.76%;
-  bottom: 32.35%;
-  left: 32.35%;
+.contactIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-251xl) 0 0;
+  gap: var(--gap-base);
+}
+.mailIcon {
+  height: 25px;
+  width: 32px;
+  position: relative;
+}
+.infolideresindustrialescom {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 307px;
+  white-space: nowrap;
   max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 1;
 }
-.vectorParent {
-  flex-direction: row;
-  position: relative;
-  gap: var(--gap-3xs);
-}
-.frameWrapper,
-.homeAppLogoParent,
-.vectorParent {
+.contactIcons1 {
+  align-self: stretch;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.frameWrapper {
-  width: 32px;
-  border-radius: var(--br-9xs);
-  border: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
   flex-direction: row;
-  padding: var(--padding-7xs) var(--padding-7xs) var(--padding-7xs)
-    var(--padding-6xs);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
 }
-.homeAppLogoParent {
+.contactDetails,
+.contactInfo {
+  display: flex;
   flex-direction: column;
-  gap: var(--gap-9xl);
-}
-.lideresIndustriales {
-  position: relative;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-}
-.lideresIndustrialesWrapper {
-  display: flex;
-  flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 0 var(--padding-xs);
+  justify-content: center;
 }
-.frameChild {
-  width: 17.9px;
-  height: 17.8px;
+.contactInfo {
+  align-self: stretch;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slategray);
+}
+.contactDetails {
+  width: 569px;
+  gap: var(--gap-23xl);
+  max-width: calc(100% - 711px);
+  flex-shrink: 0;
+}
+.nombre,
+.siDeseaMs {
+  align-self: stretch;
   position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-slategray);
 }
-.frameWrapper1 {
-  width: 32px;
-  height: 32px;
-  border-radius: var(--br-9xs);
-  border: 1px solid var(--color-gainsboro);
+.siDeseaMs {
+  font-weight: 500;
+  text-align: center;
+}
+.nombre {
+  text-align: left;
+}
+.inputBoxes {
+  border: 1px solid var(--main);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-3xs);
   box-sizing: border-box;
+  min-width: 250px;
+}
+.inputLabels {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.empresa {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-slategray);
+  text-align: left;
+}
+.inputLabelsChild {
+  border: 1px solid var(--main);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.inputLabels1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.eMail {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-slategray);
+  text-align: left;
+}
+.inputLabelsItem {
+  border: 1px solid var(--main);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.inputLabels2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.telfono {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-slategray);
+  text-align: left;
+}
+.inputLabelsInner {
+  border: 1px solid var(--main);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.inputLabels3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.mensaje {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-slategray);
+  text-align: left;
+}
+.frameInput {
+  border: 1px solid var(--main);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 101px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.formFields,
+.formInputFields,
+.inputLabels4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.formFields,
+.formInputFields {
+  gap: var(--gap-base);
+}
+.enviar {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-helvetica-neue);
+  color: var(--main);
+  text-align: left;
+  display: inline-block;
+  min-width: 52px;
+}
+.formContainer,
+.submitButton {
+  align-self: stretch;
+  display: flex;
+}
+.submitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xl-5) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(180deg, #c1ffd6, #58da6d);
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
-.frameContainer,
-.frameDiv {
-  display: flex;
+.formContainer {
+  margin: 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-18xl);
-}
-.frameContainer {
-  border-radius: var(--br-11xs);
-  flex-direction: row;
-  align-items: flex-end;
-  padding: 0 0 var(--padding-xs);
-  gap: var(--gap-xs-9);
-}
-.inicio {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 40px;
-}
-.inicioWrapper {
-  border-radius: var(--br-21xl);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-mini) var(--padding-3xs);
-}
-.sobreMi {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 67px;
-}
-.sobreMiWrapper {
-  border-radius: var(--br-21xl);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-mini) var(--padding-3xs);
-}
-.metodologa {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 93px;
-}
-.metodologaWrapper {
-  flex: 1;
-  border-radius: var(--br-21xl);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-mini) var(--padding-3xs);
-  box-sizing: border-box;
-  min-width: 73px;
-}
-.contacto {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 69px;
-}
-.contactoWrapper {
-  border-radius: var(--br-21xl);
-  justify-content: flex-start;
-  padding: var(--padding-mini) var(--padding-3xs);
-}
-.contactoWrapper,
-.frameGroup,
-.frameParent1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-.frameParent1 {
-  width: 397px;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-  max-width: 100%;
-  font-size: var(--font-size-base);
-  color: var(--main);
-}
-.frameGroup {
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-.frameGroup,
-.frameItem,
-.frameParent {
-  align-self: stretch;
-  max-width: 100%;
-}
-.frameItem {
-  position: relative;
-  overflow: hidden;
-  max-height: 100%;
-}
-.frameParent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0;
-  box-sizing: border-box;
-}
-.copyrightLideresIndustriales {
-  position: relative;
-  font-size: var(--font-size-sm);
-  font-family: var(--font-poppins);
-  color: var(--color-slategray);
-  text-align: right;
-  display: inline-block;
-  max-width: 100%;
-}
-.footer {
-  align-self: stretch;
-  border-radius: var(--br-81xl) var(--br-81xl) 0 0;
-  background-color: var(--color-ghostwhite);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: var(--padding-41xl) var(--padding-60xl);
-  box-sizing: border-box;
   gap: var(--gap-5xl);
+}
+.contactContent,
+.contactContentWrapper,
+.formContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.formContainerWrapper {
+  margin-top: -277.5px;
+  flex: 1;
+  box-shadow: 0 49px 111px rgba(1, 19, 86, 0.28);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-29xl);
+  max-width: calc(100% - 629px);
+  flex-shrink: 0;
+}
+.contactContent,
+.contactContentWrapper {
+  flex-direction: row;
   max-width: 100%;
+}
+.contactContent {
+  height: 618px;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-honeydew-300);
+  padding: var(--padding-133xl-5) var(--padding-61xl);
+  gap: var(--gap-41xl);
+}
+.contactContentWrapper {
+  align-self: stretch;
+  padding: 0 0 var(--padding-217xl);
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-darkslategray-200);
+  font-size: var(--font-size-23xl);
+  color: var(--color-gray-200);
   font-family: var(--font-helvetica-neue);
 }
-@media screen and (max-width: 800px) {
-  .frameGroup {
-    flex-wrap: wrap;
+@media screen and (max-width: 1350px) {
+  .contactContent {
+    gap: var(--gap-11xl);
+    padding: var(--padding-80xl) var(--padding-21xl);
+    box-sizing: border-box;
   }
-  .footer {
-    padding-left: var(--padding-20xl);
-    padding-right: var(--padding-20xl);
+}
+@media screen and (max-width: 1150px) {
+  .contactDetails,
+  .formContainerWrapper {
+    display: none;
+    max-width: 100%;
+  }
+  .formContainerWrapper {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .contactContentWrapper {
+    padding-bottom: var(--padding-134xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .estamosAquPara {
+    font-size: var(--font-size-15xl);
+  }
+  .contactLinks {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .contactIcons {
+    padding-right: var(--padding-116xl);
+    box-sizing: border-box;
+  }
+  .infolideresindustrialescom {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .contactDetails {
+    gap: var(--gap-2xl);
+  }
+  .formContainerWrapper {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .contactContent {
+    height: auto;
+    gap: var(--gap-mini);
+    padding-top: var(--padding-45xl);
+    padding-bottom: var(--padding-45xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .lideresIndustriales {
-    font-size: var(--font-size-lgi);
+  .estamosAquPara {
+    font-size: var(--font-size-6xl);
   }
-  .frameParent1 {
-    flex-wrap: wrap;
+  .contactLinks {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .contactIcons {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .infolideresindustrialescom {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .formContainerWrapper {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contactContentWrapper {
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
   }
 }

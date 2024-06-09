@@ -11,13 +11,46 @@
   display: inline-block;
   min-width: 40px;
 }
-.inicioWrapper {
+.contactButtons {
   border-radius: var(--br-21xl);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: var(--padding-mini) var(--padding-46xl);
+}
+.cmoLoHacemos {
+  text-decoration: none;
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+}
+.contactButtons1 {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-3xs);
+  cursor: pointer;
+}
+.valor {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 37px;
+}
+.contactButtons2 {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-47xl);
 }
 .sobreMi {
   text-decoration: none;
@@ -28,29 +61,13 @@
   min-width: 67px;
   white-space: nowrap;
 }
-.sobreMiWrapper {
+.contactButtons3 {
   border-radius: var(--br-21xl);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: var(--padding-mini) var(--padding-32xl);
-}
-.metodologa {
-  text-decoration: none;
-  position: relative;
-  font-weight: 500;
-  color: inherit;
-  display: inline-block;
-  min-width: 93px;
-}
-.metodologaWrapper {
-  border-radius: var(--br-21xl);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-mini) var(--padding-19xl);
 }
 .contacto {
   text-decoration: none;
@@ -88,7 +105,7 @@
 .menulinks {
   flex: 1;
   justify-content: flex-end;
-  padding: 0 0 0 var(--padding-526xl);
+  padding: 0 0 0 var(--padding-340xl);
   gap: var(--gap-base);
 }
 .navbar {
@@ -103,18 +120,20 @@
 }
 @media screen and (max-width: 1350px) {
   .menulinks {
-    padding-left: var(--padding-253xl);
+    padding-left: var(--padding-160xl);
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .menulinks {
+    display: none;
   }
 }
 @media screen and (max-width: 800px) {
   .menulinks,
   .navbar {
+    padding-left: var(--padding-70xl);
     box-sizing: border-box;
-  }
-  .menulinks {
-    display: none;
-    padding-left: var(--padding-117xl);
   }
   .navbar {
     padding-left: var(--padding-11xl);

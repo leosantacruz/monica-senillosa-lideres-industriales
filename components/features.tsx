@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
+import BenefitItems from "./benefit-items";
 import styles from "./features.module.css";
 
 export type FeaturesType = {
@@ -13,10 +14,10 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
 
   return (
     <section className={[styles.features, className].join(" ")}>
-      <div className={styles.frameParent}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameContainer}>
-            <div className={styles.bookmarkStarParent}>
+      <div className={styles.featuresContent}>
+        <div className={styles.featuresDescription}>
+          <div className={styles.featuresTitleContentParent}>
+            <div className={styles.featuresTitleContent}>
               <div className={styles.bookmarkStar}>
                 <img
                   className={styles.bookmarkStarIcon}
@@ -25,95 +26,16 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
                   src="/bookmark-star.svg"
                 />
               </div>
-              <h1 className={styles.beneficiosYSoluciones}>
-                Beneficios y Soluciones
-              </h1>
+              <h1 className={styles.quEvitaEl}>¿Qué evita el Programa?</h1>
             </div>
-            <div className={styles.nuestroProgramaIncrementa}>
-              Nuestro programa incrementa la rentabilidad de su empresa a través
-              de la optimización de procesos y resultados. Aquí algunos de los
-              beneficios que podrá obtener:
+            <div className={styles.entreOtrasCosasmltiples}>
+              Entre otras cosas…(múltiples costos)
             </div>
           </div>
-          <div className={styles.frameDiv}>
-            <div className={styles.checkParent}>
-              <div className={styles.check}>
-                <img
-                  className={styles.checkIcon}
-                  loading="lazy"
-                  alt=""
-                  src="/check.svg"
-                />
-              </div>
-              <div className={styles.elevacinDelNivel}>
-                Elevación del nivel de profesionalismo del líder
-              </div>
-            </div>
-            <div className={styles.checkGroup}>
-              <div className={styles.check1}>
-                <img
-                  className={styles.checkIcon1}
-                  loading="lazy"
-                  alt=""
-                  src="/check.svg"
-                />
-              </div>
-              <div className={styles.optimizacinDeLa}>
-                Optimización de la calidad de los procesos
-              </div>
-            </div>
-            <div className={styles.checkContainer}>
-              <div className={styles.check2}>
-                <img
-                  className={styles.checkIcon2}
-                  loading="lazy"
-                  alt=""
-                  src="/check.svg"
-                />
-              </div>
-              <div className={styles.reduccinDeErrores}>
-                Reducción de errores y ausentismo
-              </div>
-            </div>
-            <div className={styles.checkParent1}>
-              <div className={styles.check3}>
-                <img
-                  className={styles.checkIcon3}
-                  loading="lazy"
-                  alt=""
-                  src="/check.svg"
-                />
-              </div>
-              <div className={styles.fidelizacinDelPersonal}>
-                Fidelización del personal
-              </div>
-            </div>
-            <div className={styles.checkParent2}>
-              <div className={styles.check4}>
-                <img
-                  className={styles.checkIcon4}
-                  loading="lazy"
-                  alt=""
-                  src="/check.svg"
-                />
-              </div>
-              <div className={styles.prevencinDeDemandas}>
-                Prevención de demandas laborale
-              </div>
-            </div>
-            <div className={styles.checkParent3}>
-              <div className={styles.check5}>
-                <img
-                  className={styles.checkIcon5}
-                  loading="lazy"
-                  alt=""
-                  src="/check.svg"
-                />
-              </div>
-              <div className={styles.desarrolloDeSegundas}>
-                Desarrollo de segundas líneas de liderazgo
-              </div>
-            </div>
+          <div className={styles.benefitsList}>
+            <BenefitItems desvincularAAlguienYAfron="Desvincular a alguien y afrontar los costos que ello implica, antes de implementar las mejores prácticas posibles para que el Lider (Jefe/Supervisor) permanezca en la organización y lo haga en su mejor nivel de productividad y motivación." />
+            <BenefitItems desvincularAAlguienYAfron="Pérdidas de tiempo y la subutilización o derroche de recursos, disminuye el ausentismo por desmotivación o somatización de personas de su equipo, errores de interpretación y de ejecución de los trabajos requeridos." />
+            <BenefitItems desvincularAAlguienYAfron="Deterioro de las relaciones interpersonales que influyen directamente en la calidad de vida laboral. (Disminuye los malos entendidos, asperezas, frustraciones, enojos y resentimientos.) Inhibe el aumento del estrés y los estados emocionales negativos como la ira, angustia, impotencia, resentimiento, desconcentración, etc." />
             <button
               className={styles.saberMsWrapper}
               onClick={onFrameButtonClick}
@@ -127,7 +49,7 @@ const Features: NextPage<FeaturesType> = ({ className = "" }) => {
             className={styles.workersMeetingInEngineeringIcon}
             loading="lazy"
             alt=""
-            src="/workersmeetinginengineeringfactory20231127053341utc-1-1@2x.png"
+            src="/workersmeetinginengineeringfactory20231127053341utc-1@2x.png"
           />
         </div>
       </div>

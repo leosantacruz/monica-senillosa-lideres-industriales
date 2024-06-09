@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
+import BenefitsItems from "./benefits-items";
 import styles from "./about-us.module.css";
 
 export type AboutUsType = {
@@ -7,24 +8,24 @@ export type AboutUsType = {
 };
 
 const AboutUs: NextPage<AboutUsType> = ({ className = "" }) => {
-  const onFrameButtonClick = useCallback(() => {
+  const onBenefitsButtonClick = useCallback(() => {
     // Please sync "metodologia" to the project
   }, []);
 
   return (
     <section className={[styles.aboutUs, className].join(" ")}>
-      <div className={styles.frameParent}>
+      <div className={styles.aboutUsContent}>
         <div className={styles.workersMeetingInEngineeringWrapper}>
           <img
             className={styles.workersMeetingInEngineeringIcon}
             loading="lazy"
             alt=""
-            src="/workersmeetinginengineeringfactory20231127053341utc-1@2x.png"
+            src="/workersmeetinginengineeringfactory20231127053341utc-1-1@2x.png"
           />
         </div>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameContainer}>
-            <div className={styles.bookmarkStarParent}>
+        <div className={styles.benefitsImage}>
+          <div className={styles.benefitsDescriptionParent}>
+            <div className={styles.benefitsDescription}>
               <div className={styles.bookmarkStar}>
                 <img
                   className={styles.book2Icon}
@@ -33,22 +34,17 @@ const AboutUs: NextPage<AboutUsType> = ({ className = "" }) => {
                   src="/book-2.svg"
                 />
               </div>
-              <h1 className={styles.enQuConsisteContainer}>
-                <p className={styles.enQuConsiste}>¿En qué consiste</p>
-                <p className={styles.nuestroPrograma}>nuestro programa?</p>
+              <h1 className={styles.paraQuSirve}>
+                ¿Para qué sirve definitivamente?
               </h1>
             </div>
-            <div className={styles.nuestroInnovadorProceso}>
-              Nuestro innovador proceso de desarrollo profesional alinea a los
-              líderes con las demandas de sus puestos actuales o futuros.
-              Ofrecemos capacitación en Ingeniería Industrial, Lean
-              Manufacturing, Programación Neurolingüística (PNL) y Coaching.
-              Buscamos que los participantes integren habilidades blandas y
-              duras para liderar personas y procesos eficazmente.
+            <div className={styles.sirveParaIncrementar}>
+              Sirve para incrementar la rentabilidad de la empresa a  través
+              de: 
             </div>
           </div>
-          <div className={styles.frameDiv}>
-            <div className={styles.checkParent}>
+          <div className={styles.benefitsList}>
+            <div className={styles.benefitsItems}>
               <div className={styles.check}>
                 <img
                   className={styles.checkIcon}
@@ -57,54 +53,83 @@ const AboutUs: NextPage<AboutUsType> = ({ className = "" }) => {
                   src="/check.svg"
                 />
               </div>
-              <div className={styles.diagnsticoYAutoevaluacin}>
-                Diagnóstico y autoevaluación de competencias
-              </div>
+              <p className={styles.optimizarLaCalidad}>
+                Optimizar la calidad de los procesos y de los resultados a su
+                cargo.
+              </p>
             </div>
-            <div className={styles.checkGroup}>
+            <div className={styles.benefitsItems1}>
               <div className={styles.check1}>
-                <img className={styles.checkIcon1} alt="" src="/check.svg" />
+                <img
+                  className={styles.checkIcon1}
+                  loading="lazy"
+                  alt=""
+                  src="/check.svg"
+                />
               </div>
-              <div className={styles.evaluacin360Opcional}>
-                Evaluación 360 (opcional)
+              <div className={styles.reducirElAusentismo}>
+                Reducir el ausentismo en su área.
               </div>
             </div>
-            <div className={styles.checkContainer}>
+            <div className={styles.benefitsItems2}>
               <div className={styles.check2}>
-                <img className={styles.checkIcon2} alt="" src="/check.svg" />
+                <img
+                  className={styles.checkIcon2}
+                  loading="lazy"
+                  alt=""
+                  src="/check.svg"
+                />
               </div>
-              <div className={styles.diseoPersonalizadoDel}>
-                Diseño personalizado del programa
+              <div className={styles.estimularLaPredisposicin}>
+                Estimular la predisposición a la Mejora Continua
               </div>
             </div>
-            <div className={styles.checkParent1}>
+            <div className={styles.benefitsItems3}>
               <div className={styles.check3}>
                 <img className={styles.checkIcon3} alt="" src="/check.svg" />
               </div>
-              <div className={styles.evaluacionesContinuasY}>
-                Evaluaciones continuas y presupuesto
+              <div className={styles.fidelizarAlPersonal}>
+                Fidelizar al personal y prevenir la rotación.
               </div>
             </div>
-            <div className={styles.checkParent2}>
+            <div className={styles.benefitsItems4}>
               <div className={styles.check4}>
                 <img className={styles.checkIcon4} alt="" src="/check.svg" />
               </div>
-              <div className={styles.desarrolloDeDinmicas}>
-                Desarrollo de dinámicas formativas
+              <div className={styles.evitarPotencialesDemandas}>
+                Evitar potenciales demandas laborales ante desvinculaciones
               </div>
             </div>
-            <div className={styles.checkParent3}>
+            <div className={styles.benefitsItems5}>
               <div className={styles.check5}>
                 <img className={styles.checkIcon5} alt="" src="/check.svg" />
               </div>
-              <div className={styles.evaluacinFinalY}>
-                Evaluación final y certificación
-              </div>
+              <p className={styles.prevenirQueEmpleados}>
+                Prevenir que empleados trabajen desmotivados o renuncien por
+                mala relación con su líder (Jefe/supervisor) 
+              </p>
             </div>
+            <div className={styles.benefitsItems6}>
+              <div className={styles.check6}>
+                <img
+                  className={styles.checkIcon6}
+                  loading="lazy"
+                  alt=""
+                  src="/check.svg"
+                />
+              </div>
+              <p className={styles.contarConLderes}>
+                Contar con Líderes que apoyen al desarrollo de su personal en
+                forma permanente
+              </p>
+            </div>
+            <BenefitsItems concientizarYPredisponerA="Concientizar y predisponer a los lideres a generar y desarrollar segundas líneas calificadas (para que el equipo no sufra acefalia en los periodos en que el mismo requiera ausentarse, o delegar para ascender a otra posicion)" />
+            <BenefitsItems concientizarYPredisponerA="Garantizar que la persona experimente una vinculación natural, efectiva y satisfactoria con las responsabilidades y tareas de su posición de Líder /jefe/supervisor) y las demás relaciones que debe establecer con las demás personas y el entorno de trabajo. " />
+            <BenefitsItems concientizarYPredisponerA="Facilitar que sepa desaprender practica y hábitos que no resulta útiles para que pueda desarrollar nuevas actitudes y motivaciones complementarias a las que tiene, que le resultaran beneficiosas para mejorar su performance." />
           </div>
           <button
-            className={styles.saberMsWrapper}
-            onClick={onFrameButtonClick}
+            className={styles.benefitsButton}
+            onClick={onBenefitsButtonClick}
           >
             <div className={styles.saberMs}>Saber más</div>
           </button>

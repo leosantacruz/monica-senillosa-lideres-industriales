@@ -7,7 +7,7 @@
   font-weight: 400;
   font-family: inherit;
 }
-.loQueDicenNuestrosParticipWrapper {
+.testimonialsHeader {
   width: 706px;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
   color: var(--color-slategray);
   text-align: center;
 }
-.frameParent {
+.testimonialsContent {
   width: 923px;
   flex-direction: column;
   align-items: center;
@@ -33,14 +33,14 @@
   box-sizing: border-box;
   gap: var(--gap-13xl);
 }
-.frame,
-.frameParent,
+.testimonialCards,
+.testimonialsContent,
 .testimonies {
   flex-shrink: 0;
   display: flex;
   max-width: 100%;
 }
-.frame {
+.testimonialCards {
   width: 1440px;
   overflow-x: auto;
   flex-direction: row;
@@ -69,7 +69,7 @@
     font-size: var(--font-size-15xl);
     line-height: 48px;
   }
-  .frame {
+  .testimonialCards {
     padding-bottom: var(--padding-123xl);
     box-sizing: border-box;
   }
@@ -82,7 +82,7 @@
     font-size: var(--font-size-6xl);
     line-height: 36px;
   }
-  .frameParent {
+  .testimonialsContent {
     gap: var(--gap-base);
   }
   .testimonies {

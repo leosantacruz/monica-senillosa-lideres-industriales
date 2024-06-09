@@ -1,15 +1,15 @@
 import type { NextPage } from "next";
-import FrameComponent10 from "./frame-component10";
-import styles from "./frame-component9.module.css";
+import CompaniesCount from "./companies-count";
+import styles from "./hero.module.css";
 
-export type FrameComponent9Type = {
+export type HeroType = {
   className?: string;
 };
 
-const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
+const Hero: NextPage<HeroType> = ({ className = "" }) => {
   return (
     <div className={[styles.hero, className].join(" ")}>
-      <div className={styles.certificacinDeLderesIndusParent}>
+      <div className={styles.heroContent}>
         <h1 className={styles.certificacinDeLderes}>
           Certificación de Líderes Industriales
         </h1>
@@ -22,9 +22,9 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
           <div className={styles.contacto}>Contacto</div>
         </button>
       </div>
-      <div className={styles.heroInner}>
-        <div className={styles.frameParent}>
-          <div className={styles.frameWrapper}>
+      <div className={styles.benefitsContentWrapper}>
+        <div className={styles.benefitsContent}>
+          <div className={styles.benefitColumns}>
             <div className={styles.portraitOfCompanyLeadersAnParent}>
               <img
                 className={styles.portraitOfCompanyLeadersAnIcon}
@@ -32,32 +32,32 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
                 alt=""
                 src="/portraitofcompanyleadersandtheiremployeesin20231127050633utc-1@2x.png"
               />
-              <div className={styles.frameContainer}>
+              <div className={styles.frameWrapper}>
                 <div className={styles.productividadWrapper}>
                   <b className={styles.productividad}>PRODUCTIVIDAD</b>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.frameDiv}>
+          <div className={styles.benefitsContentInner}>
             <div className={styles.rentabilidadWrapper}>
               <b className={styles.rentabilidad}>RENTABILIDAD</b>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.heroChild}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameWrapper1}>
-            <div className={styles.frameWrapper2}>
+      <div className={styles.heroInner}>
+        <div className={styles.frameParent}>
+          <div className={styles.frameContainer}>
+            <div className={styles.frameDiv}>
               <div className={styles.rentabilidadContainer}>
                 <b className={styles.rentabilidad1}>RENTABILIDAD</b>
               </div>
             </div>
           </div>
-          <div className={styles.frameParent1}>
-            <div className={styles.parent}>
-              <div className={styles.div}>
+          <div className={styles.certifiedCompanies}>
+            <div className={styles.certifiedDescription}>
+              <div className={styles.placeholder}>
                 <span>30</span>
                 <span className={styles.span}>%</span>
               </div>
@@ -66,10 +66,10 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
                 <p className={styles.certificadas}>CERTIFICADAS</p>
               </b>
             </div>
-            <FrameComponent10 />
-            <FrameComponent10 />
+            <CompaniesCount />
+            <CompaniesCount />
           </div>
-          <div className={styles.frameWrapper3}>
+          <div className={styles.frameWrapper1}>
             <div className={styles.bxlFacebooksvgParent}>
               <div className={styles.bxlFacebooksvg}>
                 <img
@@ -95,4 +95,4 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
   );
 };
 
-export default FrameComponent9;
+export default Hero;

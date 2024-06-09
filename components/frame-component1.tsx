@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import FrameComponent5 from "./frame-component5";
+import MonicaIntroduction from "./monica-introduction";
 import styles from "./frame-component1.module.css";
 
 export type FrameComponent1Type = {
@@ -8,73 +8,65 @@ export type FrameComponent1Type = {
 
 const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
   return (
-    <section className={[styles.frameWrapper, className].join(" ")}>
-      <div className={styles.frameParent}>
-        <div className={styles.estamosAquParaAyudarleATParent}>
-          <p className={styles.estamosAquPara}>
-            Estamos aquí para ayudarle a transformar el liderazgo en su
-            organización.
-          </p>
-          <div className={styles.frameGroup}>
-            <div className={styles.vectorParent}>
-              <img
-                className={styles.vectorIcon}
-                loading="lazy"
-                alt=""
-                src="/vector.svg"
+    <section
+      className={[styles.aboutMonicaContentWrapper, className].join(" ")}
+    >
+      <div className={styles.aboutMonicaContent}>
+        <div className={styles.aboutmonica}>
+          <img
+            className={styles.image1Icon}
+            loading="lazy"
+            alt=""
+            src="/image-1@2x.png"
+          />
+          <div className={styles.aboutMonicaActions}>
+            <div className={styles.monicaDescription}>
+              <MonicaIntroduction
+                personBook="/person-book.svg"
+                holaSoyMnica="Hola, soy Mónica"
               />
-              <div className={styles.div}> +54 123 456 789</div>
+              <div className={styles.fundadoraDeAqesiMasterContainer}>
+                <p className={styles.fundadoraDeAqesiMaster}>
+                  Fundadora de aQesi!  Master Practitioner y Trainer Certificado
+                  en Programación Neurolinguistica Trabajo con PNL y otros
+                  tantos recursos útiles, desde hace más de veinte años, en el
+                  complejo y apasionante ámbito de las relaciones
+                  interpersonales de negocios. Asesoro y facilito su desarrollo
+                  profesional a líderes de Pymes industriales y de una variedad
+                  de empresas de servicios (financieras, aseguradoras, de
+                  ingeniería y tecnología, publicidad, salud, espectáculos, etc.
+                  ) y a profesionales independientes y emprendedores en la
+                  gestión de sus negocios. ¡Creo que la forma más fácil de
+                  aprender, desarrollarnos y lograr los resultados que queremos
+                  es jugando, seria y creativamente, diseñando estrategias,
+                  poniendo el cuerpo en ello, “haciendo y haciendo” y
+                  disfrutando el proceso! y así es como trabajo con mis
+                  clientes! ¡¡Vivo en Argentina y de hacer lo que me gusta!!
+                </p>
+              </div>
             </div>
-            <div className={styles.mailParent}>
-              <img
-                className={styles.mailIcon}
-                loading="lazy"
-                alt=""
-                src="/mail.svg"
-              />
-              <h2 className={styles.infolideresindustrialescom}>
-                 info@lideresindustriales.com
-              </h2>
+            <div className={styles.actionButtons}>
+              <input className={styles.download} type="checkbox" />
+              <div className={styles.descargarCv}>Descargar CV</div>
+            </div>
+            <div className={styles.actionButtons1}>
+              <input className={styles.download1} type="checkbox" />
+              <div className={styles.menosTextoLink}>
+                menos texto link a lineknd
+              </div>
             </div>
           </div>
         </div>
-        <div className={styles.frameContainer}>
-          <form className={styles.frameForm}>
-            <div className={styles.frameDiv}>
-              <FrameComponent5
-                personBook="/headset-mic.svg"
-                holaSoyMnica="Hablemos"
-              />
-              <div
-                className={styles.siDeseaMs}
-              >{`Si desea más información sobre nuestro programa o tiene alguna pregunta, no dude en ponerse en contacto con nosotros. `}</div>
-              <div className={styles.frameParent1}>
-                <div className={styles.nombreParent}>
-                  <div className={styles.nombre}>Nombre</div>
-                  <input className={styles.frameChild} type="text" />
-                </div>
-                <div className={styles.empresaParent}>
-                  <div className={styles.empresa}>Empresa</div>
-                  <input className={styles.frameItem} type="text" />
-                </div>
-                <div className={styles.eMailParent}>
-                  <div className={styles.eMail}>E-mail</div>
-                  <input className={styles.frameInner} type="text" />
-                </div>
-                <div className={styles.telfonoParent}>
-                  <div className={styles.telfono}>Teléfono</div>
-                  <input className={styles.frameInput} type="text" />
-                </div>
-                <div className={styles.mensajeParent}>
-                  <div className={styles.mensaje}>Mensaje</div>
-                  <input className={styles.frameChild1} type="text" />
-                </div>
-              </div>
+        <div className={styles.sloganWrapper}>
+          <div className={styles.slogan}>
+            <h1 className={styles.h1}>“</h1>
+            <div className={styles.laFormaMsFcilDeAprenderWrapper}>
+              <h1
+                className={styles.laFormaMs}
+              >{`La forma más fácil de aprender, desarrollarnos y lograr los resultados que queremos es jugando, `}</h1>
             </div>
-            <button className={styles.enviarWrapper}>
-              <div className={styles.enviar}>Enviar</div>
-            </button>
-          </form>
+            <h1 className={styles.h11}>”</h1>
+          </div>
         </div>
       </div>
     </section>

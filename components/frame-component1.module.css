@@ -1,382 +1,253 @@
-.estamosAquPara {
+.image1Icon {
+  width: 363px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.fundadoraDeAqesiMaster {
   margin: 0;
+}
+.fundadoraDeAqesiMasterContainer {
   align-self: stretch;
+  height: 397px;
   position: relative;
-  font-weight: 300;
-}
-.vectorIcon {
-  height: 33px;
-  width: 32px;
-  position: relative;
-}
-.div {
-  flex: 1;
-  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 500;
+  color: var(--color-slategray);
   display: inline-block;
-  min-width: 163px;
+  flex-shrink: 0;
 }
-.vectorParent {
+.monicaDescription {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-251xl) 0 0;
-  gap: var(--gap-base);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-23xl);
+  color: var(--color-gray-200);
 }
-.mailIcon {
-  height: 25px;
-  width: 32px;
-  position: relative;
-}
-.infolideresindustrialescom {
+.download {
   margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.descargarCv {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 115px;
+}
+.actionButtons {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.download1 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.menosTextoLink {
+  position: relative;
+  font-weight: 500;
+}
+.actionButtons1 {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.aboutMonicaActions,
+.aboutmonica {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutMonicaActions {
+  height: 610px;
   flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-13xl);
+  min-width: 470px;
+}
+.aboutmonica {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-21xl);
+  gap: var(--gap-41xl);
+}
+.h1,
+.laFormaMs {
+  margin: 0;
   position: relative;
   font-size: inherit;
   line-height: 150%;
-  font-weight: 300;
+  font-family: inherit;
+}
+.h1 {
+  width: 45px;
+  font-weight: 500;
+  display: inline-block;
+}
+.laFormaMs {
+  align-self: stretch;
+  font-weight: 100;
+}
+.laFormaMsFcilDeAprenderWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  min-width: 573px;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue-100);
+}
+.h11 {
+  margin: 0;
+  width: 45px;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 500;
   font-family: inherit;
   display: inline-block;
-  min-width: 307px;
-  white-space: nowrap;
-  max-width: 100%;
 }
-.mailParent {
-  align-self: stretch;
-  display: flex;
+.slogan,
+.sloganWrapper {
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-base);
-  max-width: 100%;
-  text-align: left;
-}
-.estamosAquParaAyudarleATParent,
-.frameGroup {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.frameGroup {
-  align-self: stretch;
-  gap: var(--gap-base);
-  max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-13xl);
-  color: var(--color-slategray);
-}
-.estamosAquParaAyudarleATParent {
-  width: 569px;
-  gap: var(--gap-23xl);
-  max-width: calc(100% - 711px);
-  flex-shrink: 0;
-}
-.nombre,
-.siDeseaMs {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-lg);
-  line-height: 150%;
-  font-family: var(--font-helvetica-neue);
-  color: var(--color-slategray);
-}
-.siDeseaMs {
-  font-weight: 500;
-  text-align: center;
-}
-.nombre {
-  text-align: left;
-}
-.frameChild {
-  border: 1px solid var(--main);
-  outline: 0;
-  background-color: transparent;
-  align-self: stretch;
-  height: 46px;
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  min-width: 250px;
-}
-.nombreParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
-.empresa {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-lg);
-  line-height: 150%;
-  font-family: var(--font-helvetica-neue);
-  color: var(--color-slategray);
-  text-align: left;
-}
-.frameItem {
-  border: 1px solid var(--main);
-  outline: 0;
-  background-color: transparent;
-  align-self: stretch;
-  height: 46px;
-  border-radius: var(--br-3xs);
   box-sizing: border-box;
-  min-width: 250px;
 }
-.empresaParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
-.eMail {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-lg);
-  line-height: 150%;
-  font-family: var(--font-helvetica-neue);
-  color: var(--color-slategray);
-  text-align: left;
-}
-.frameInner {
-  border: 1px solid var(--main);
-  outline: 0;
-  background-color: transparent;
-  align-self: stretch;
-  height: 46px;
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  min-width: 250px;
-}
-.eMailParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
-.telfono {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-lg);
-  line-height: 150%;
-  font-family: var(--font-helvetica-neue);
-  color: var(--color-slategray);
-  text-align: left;
-}
-.frameInput {
-  border: 1px solid var(--main);
-  outline: 0;
-  background-color: transparent;
-  align-self: stretch;
-  height: 46px;
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  min-width: 250px;
-}
-.telfonoParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
-.mensaje {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-lg);
-  line-height: 150%;
-  font-family: var(--font-helvetica-neue);
-  color: var(--color-slategray);
-  text-align: left;
-}
-.frameChild1 {
-  border: 1px solid var(--main);
-  outline: 0;
-  background-color: transparent;
-  align-self: stretch;
-  height: 101px;
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  min-width: 250px;
-}
-.frameDiv,
-.frameParent1,
-.mensajeParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
-.frameDiv,
-.frameParent1 {
-  gap: var(--gap-base);
-}
-.enviar {
-  position: relative;
-  font-size: var(--font-size-lg);
-  font-weight: 500;
-  font-family: var(--font-helvetica-neue);
-  color: var(--main);
-  text-align: left;
-  display: inline-block;
-  min-width: 52px;
-}
-.enviarWrapper {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-2xl-5) var(--padding-xl);
-  background-color: transparent;
-  align-self: stretch;
+.slogan {
+  flex: 1;
   border-radius: var(--br-21xl);
-  background: linear-gradient(180deg, #c1ffd6, #58da6d);
+  background-color: var(--color-honeydew-200);
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.frameContainer,
-.frameForm,
-.frameParent,
-.frameWrapper {
-  display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
-}
-.frameForm {
-  margin: 0;
-  align-self: stretch;
-  flex-direction: column;
-  gap: var(--gap-5xl);
-}
-.frameContainer,
-.frameParent,
-.frameWrapper {
-  box-sizing: border-box;
-}
-.frameContainer {
-  margin-top: -277.5px;
-  flex: 1;
-  box-shadow: 0 49px 111px rgba(1, 19, 86, 0.28);
-  border-radius: var(--br-11xl);
-  background-color: var(--color-white);
-  flex-direction: column;
-  padding: var(--padding-13xl) var(--padding-29xl);
-  max-width: calc(100% - 629px);
-  flex-shrink: 0;
-}
-.frameParent,
-.frameWrapper {
-  flex-direction: row;
+  padding: var(--padding-5xl-5) var(--padding-50xl);
+  gap: var(--gap-3xs);
   max-width: 100%;
 }
-.frameParent {
-  height: 618px;
-  flex: 1;
-  border-radius: var(--br-xl);
-  background-color: var(--color-honeydew-200);
-  padding: var(--padding-133xl-5) var(--padding-61xl);
-  gap: var(--gap-41xl);
-}
-.frameWrapper {
+.sloganWrapper {
   align-self: stretch;
-  padding: 0 0 var(--padding-217xl);
+  padding: 0 var(--padding-29xl);
+  text-align: center;
+  font-size: var(--font-size-81xl);
+  color: var(--color-mediumaquamarine);
+}
+.aboutMonicaContent,
+.aboutMonicaContentWrapper,
+.sloganWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.aboutMonicaContent {
+  width: 1226px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-101xl);
+}
+.aboutMonicaContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
   text-align: left;
-  font-size: var(--font-size-23xl);
-  color: var(--color-gray-200);
+  font-size: var(--font-size-lg);
+  color: var(--main);
   font-family: var(--font-helvetica-neue);
 }
 @media screen and (max-width: 1350px) {
-  .frameParent {
-    gap: var(--gap-11xl);
-    padding: var(--padding-80xl) var(--padding-21xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 1150px) {
-  .estamosAquParaAyudarleATParent,
-  .frameContainer {
-    display: none;
-    max-width: 100%;
-  }
-  .frameContainer {
-    padding-top: var(--padding-2xl);
-    padding-bottom: var(--padding-2xl);
-    box-sizing: border-box;
-  }
-  .frameWrapper {
-    padding-bottom: var(--padding-134xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 800px) {
-  .estamosAquPara {
-    font-size: var(--font-size-15xl);
-  }
-  .div {
-    font-size: var(--font-size-7xl);
-    line-height: 38px;
-  }
-  .vectorParent {
-    padding-right: var(--padding-116xl);
-    box-sizing: border-box;
-  }
-  .infolideresindustrialescom {
-    font-size: var(--font-size-7xl);
-    line-height: 38px;
-  }
-  .estamosAquParaAyudarleATParent {
-    gap: var(--gap-2xl);
-  }
-  .frameContainer {
+  .sloganWrapper {
     padding-left: var(--padding-5xl);
     padding-right: var(--padding-5xl);
     box-sizing: border-box;
   }
-  .frameParent {
-    height: auto;
-    gap: var(--gap-mini);
-    padding-top: var(--padding-45xl);
-    padding-bottom: var(--padding-45xl);
+}
+@media screen and (max-width: 1150px) {
+  .image1Icon {
+    flex: 1;
+  }
+  .aboutmonica {
+    flex-wrap: wrap;
+  }
+  .laFormaMsFcilDeAprenderWrapper {
+    min-width: 100%;
+  }
+  .slogan {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 800px) {
+  .monicaDescription {
+    gap: var(--gap-base);
+  }
+  .aboutMonicaActions {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .aboutmonica {
+    gap: var(--gap-11xl);
+  }
+  .h1 {
+    font-size: var(--font-size-31xl);
+    line-height: 90px;
+  }
+  .laFormaMs {
+    font-size: var(--font-size-13xl);
+    line-height: 48px;
+  }
+  .h11 {
+    font-size: var(--font-size-31xl);
+    line-height: 90px;
+  }
+  .aboutMonicaContent {
+    gap: var(--gap-41xl);
+  }
+}
 @media screen and (max-width: 450px) {
-  .estamosAquPara {
-    font-size: var(--font-size-6xl);
+  .h1 {
+    font-size: var(--font-size-11xl);
+    line-height: 60px;
   }
-  .div {
-    font-size: var(--font-size-lgi);
-    line-height: 29px;
+  .laFormaMs {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
   }
-  .vectorParent {
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
+  .h11 {
+    font-size: var(--font-size-11xl);
+    line-height: 60px;
   }
-  .infolideresindustrialescom {
-    font-size: var(--font-size-lgi);
-    line-height: 29px;
-  }
-  .frameContainer {
-    padding-top: var(--padding-xl);
-    padding-bottom: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .frameWrapper {
-    padding-bottom: var(--padding-80xl);
-    box-sizing: border-box;
+  .aboutMonicaContent {
+    gap: var(--gap-11xl);
   }
 }

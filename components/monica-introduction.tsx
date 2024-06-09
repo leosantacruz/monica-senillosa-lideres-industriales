@@ -1,19 +1,19 @@
 import type { NextPage } from "next";
-import styles from "./frame-component5.module.css";
+import styles from "./monica-introduction.module.css";
 
-export type FrameComponent5Type = {
+export type MonicaIntroductionType = {
   className?: string;
   personBook?: string;
   holaSoyMnica?: string;
 };
 
-const FrameComponent5: NextPage<FrameComponent5Type> = ({
+const MonicaIntroduction: NextPage<MonicaIntroductionType> = ({
   className = "",
   personBook,
   holaSoyMnica,
 }) => {
   return (
-    <div className={[styles.bookmarkStarParent, className].join(" ")}>
+    <div className={[styles.monicaIntroduction, className].join(" ")}>
       <div className={styles.bookmarkStar}>
         <img
           className={styles.personBookIcon}
@@ -27,4 +27,4 @@ const FrameComponent5: NextPage<FrameComponent5Type> = ({
   );
 };
 
-export default FrameComponent5;
+export default MonicaIntroduction;

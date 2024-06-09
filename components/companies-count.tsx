@@ -1,16 +1,14 @@
 import type { NextPage } from "next";
-import styles from "./frame-component10.module.css";
+import styles from "./companies-count.module.css";
 
-export type FrameComponent10Type = {
+export type CompaniesCountType = {
   className?: string;
 };
 
-const FrameComponent10: NextPage<FrameComponent10Type> = ({
-  className = "",
-}) => {
+const CompaniesCount: NextPage<CompaniesCountType> = ({ className = "" }) => {
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.kWrapper}>
+    <div className={[styles.companiesCount, className].join(" ")}>
+      <div className={styles.companiesNumber}>
         <div className={styles.k}>
           <span>99</span>
           <span className={styles.k1}>k</span>
@@ -24,4 +22,4 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
   );
 };
 
-export default FrameComponent10;
+export default CompaniesCount;

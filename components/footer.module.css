@@ -1,0 +1,233 @@
+.facebookIcon,
+.homeAppLogoIcon {
+  width: 36.1px;
+  height: 41px;
+  position: relative;
+}
+.facebookIcon {
+  height: 17px;
+  width: 17px;
+}
+.linkedinIcon {
+  height: 35.29%;
+  width: 35.88%;
+  position: absolute;
+  margin: 0 !important;
+  top: 32.35%;
+  right: 31.76%;
+  bottom: 32.35%;
+  left: 32.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.socialLinks {
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.homeAppLogoParent,
+.socialIcons,
+.socialLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialIcons {
+  width: 32px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-7xs) var(--padding-7xs)
+    var(--padding-6xs);
+}
+.homeAppLogoParent {
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.lideresIndustriales {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.lideresIndustrialesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+}
+.frameChild {
+  width: 17.9px;
+  height: 17.8px;
+  position: relative;
+}
+.footerRightInner {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerLeft,
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+}
+.footerLeft {
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-xs-9);
+}
+.inicio {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 40px;
+}
+.menuItems {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xs);
+}
+.sobreMi {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 67px;
+}
+.menuItems1 {
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xs);
+}
+.metodologa {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 93px;
+}
+.menuItems2 {
+  flex: 1;
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xs);
+  box-sizing: border-box;
+  min-width: 73px;
+}
+.contacto {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+}
+.footerLeftParent,
+.footerMenu,
+.menuItems3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.menuItems3 {
+  border-radius: var(--br-21xl);
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xs);
+}
+.footerLeftParent,
+.footerMenu {
+  max-width: 100%;
+}
+.footerMenu {
+  width: 397px;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--main);
+}
+.footerLeftParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footerDividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyrightLideresIndustriales {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+  color: var(--color-slategray);
+  text-align: right;
+  display: inline-block;
+  max-width: 100%;
+}
+.footer {
+  align-self: stretch;
+  border-radius: var(--br-81xl) var(--br-81xl) 0 0;
+  background-color: var(--color-ghostwhite);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-60xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-helvetica-neue);
+}
+@media screen and (max-width: 800px) {
+  .footerLeftParent {
+    flex-wrap: wrap;
+  }
+  .footer {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lideresIndustriales {
+    font-size: var(--font-size-lgi);
+  }
+  .footerMenu {
+    flex-wrap: wrap;
+  }
+}

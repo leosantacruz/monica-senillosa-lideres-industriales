@@ -7,7 +7,7 @@
   width: 60px;
   height: 60px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,7 +15,7 @@
   padding: var(--padding-mini-3) var(--padding-mid) var(--padding-mini-2);
   box-sizing: border-box;
 }
-.beneficiosYSoluciones {
+.quEvitaEl {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -23,7 +23,7 @@
   font-weight: 400;
   font-family: inherit;
 }
-.bookmarkStarParent {
+.featuresTitleContent {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,212 +32,20 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.nuestroProgramaIncrementa {
+.entreOtrasCosasmltiples {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 150%;
-  font-weight: 500;
   color: var(--color-slategray);
 }
-.frameContainer {
+.featuresTitleContentParent {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-13xl);
-  max-width: 100%;
-}
-.checkIcon {
-  width: 13px;
-  height: 10px;
-  position: relative;
-}
-.check {
-  height: 27px;
-  width: 27px;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs-5) var(--padding-6xs);
-  box-sizing: border-box;
-}
-.elevacinDelNivel {
-  flex: 1;
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 253px;
-  max-width: 100%;
-}
-.checkParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 var(--padding-11xs) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-base);
-  max-width: 100%;
-}
-.checkIcon1 {
-  width: 13px;
-  height: 10px;
-  position: relative;
-}
-.check1 {
-  height: 27px;
-  width: 27px;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs-5) var(--padding-6xs);
-  box-sizing: border-box;
-}
-.optimizacinDeLa {
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-}
-.checkGroup {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-  max-width: 100%;
-}
-.checkIcon2 {
-  width: 13px;
-  height: 10px;
-  position: relative;
-}
-.check2 {
-  height: 27px;
-  width: 27px;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs-5) var(--padding-6xs);
-  box-sizing: border-box;
-}
-.reduccinDeErrores {
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-}
-.checkContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-  max-width: 100%;
-}
-.checkIcon3 {
-  width: 13px;
-  height: 10px;
-  position: relative;
-}
-.check3 {
-  height: 27px;
-  width: 27px;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs-5) var(--padding-6xs);
-  box-sizing: border-box;
-}
-.fidelizacinDelPersonal {
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-}
-.checkParent1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-}
-.checkIcon4 {
-  width: 13px;
-  height: 10px;
-  position: relative;
-}
-.check4 {
-  height: 27px;
-  width: 27px;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs-5) var(--padding-6xs);
-  box-sizing: border-box;
-}
-.prevencinDeDemandas {
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-}
-.checkParent2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-  max-width: 100%;
-}
-.checkIcon5 {
-  width: 13px;
-  height: 10px;
-  position: relative;
-}
-.check5 {
-  height: 27px;
-  width: 27px;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs-5) var(--padding-6xs);
-  box-sizing: border-box;
-}
-.desarrolloDeSegundas {
-  flex: 1;
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 233px;
-  max-width: 100%;
-}
-.checkParent3 {
-  width: 401px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base);
   max-width: 100%;
 }
 .saberMs {
@@ -263,30 +71,29 @@
   justify-content: center;
   white-space: nowrap;
 }
-.frameDiv,
-.frameGroup {
+.benefitsList,
+.featuresDescription {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  box-sizing: border-box;
   max-width: 100%;
 }
-.frameDiv {
+.benefitsList {
   align-self: stretch;
-  padding: 0 var(--padding-155xl) 0 0;
   gap: var(--gap-5xl);
   font-size: var(--font-size-lg);
   color: var(--color-darkslategray-200);
 }
-.frameGroup {
+.featuresDescription {
   flex: 1;
   padding: var(--padding-41xl) 0;
+  box-sizing: border-box;
   gap: var(--gap-13xl);
   min-width: 395px;
 }
 .workersMeetingInEngineeringIcon {
-  height: 756px;
+  height: 819px;
   flex: 1;
   position: relative;
   border-radius: var(--br-21xl) 0 0 var(--br-21xl);
@@ -301,13 +108,13 @@
   min-width: 652px;
 }
 .features,
-.frameParent,
+.featuresContent,
 .workersMeetingInEngineeringWrapper {
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frameParent {
+.featuresContent {
   width: 1380px;
   border-radius: var(--br-41xl) 0 0 var(--br-41xl);
   background-color: var(--color-aliceblue);
@@ -327,17 +134,22 @@
   font-family: var(--font-helvetica-neue);
 }
 @media screen and (max-width: 1350px) {
-  .frameParent {
+  .featuresContent {
     padding-left: var(--padding-11xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1150px) {
+  .featuresDescription {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
   .workersMeetingInEngineeringIcon,
   .workersMeetingInEngineeringWrapper {
     flex: 1;
   }
-  .frameParent {
+  .featuresContent {
     flex-wrap: wrap;
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
@@ -346,42 +158,32 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .beneficiosYSoluciones {
+  .quEvitaEl {
     font-size: var(--font-size-15xl);
     line-height: 48px;
   }
-  .frameContainer {
+  .featuresTitleContentParent {
     gap: var(--gap-base);
   }
-  .frameDiv {
-    padding-right: var(--padding-68xl);
-    box-sizing: border-box;
-  }
-  .frameGroup {
+  .featuresDescription {
     gap: var(--gap-base);
-    padding-top: var(--padding-20xl);
-    padding-bottom: var(--padding-20xl);
-    box-sizing: border-box;
+    min-width: 100%;
   }
-  .frameGroup,
   .workersMeetingInEngineeringWrapper {
     min-width: 100%;
   }
-  .frameParent {
+  .featuresContent {
     gap: var(--gap-11xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .beneficiosYSoluciones {
+  .quEvitaEl {
     font-size: var(--font-size-6xl);
     line-height: 36px;
   }
-  .checkParent,
-  .checkParent3 {
-    flex-wrap: wrap;
-  }
-  .frameDiv {
-    padding-right: var(--padding-xl);
+  .featuresDescription {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
     box-sizing: border-box;
   }
 }

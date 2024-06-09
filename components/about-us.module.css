@@ -1,5 +1,5 @@
 .workersMeetingInEngineeringIcon {
-  height: 905px;
+  height: 1115px;
   flex: 1;
   position: relative;
   border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
@@ -25,7 +25,7 @@
   width: 60px;
   height: 60px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,41 +33,36 @@
   padding: var(--padding-4xs);
   box-sizing: border-box;
 }
-.enQuConsiste,
-.nuestroPrograma {
-  margin: 0;
-}
-.enQuConsisteContainer {
+.paraQuSirve {
   margin: 0;
   position: relative;
   font-size: inherit;
-  line-height: 142%;
+  line-height: 60px;
   font-weight: 400;
   font-family: inherit;
 }
-.bookmarkStarParent {
+.benefitsDescription {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
 }
-.nuestroInnovadorProceso {
+.sirveParaIncrementar {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 150%;
-  font-weight: 500;
   color: var(--color-slategray);
 }
-.frameContainer {
+.benefitsDescriptionParent {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 0;
   gap: var(--gap-13xl);
-  max-width: 100%;
 }
 .checkIcon {
   width: 13px;
@@ -78,25 +73,22 @@
   height: 27px;
   width: 27px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: var(--padding-4xs-5) var(--padding-6xs);
   box-sizing: border-box;
+  flex-shrink: 0;
 }
-.diagnsticoYAutoevaluacin {
-  flex: 1;
+.optimizarLaCalidad {
+  margin: 0;
   position: relative;
-  line-height: 150%;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 256px;
-  max-width: 100%;
+  flex-shrink: 0;
 }
-.checkParent {
-  align-self: stretch;
+.benefitsItems {
+  width: 434px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -115,7 +107,7 @@
   height: 27px;
   width: 27px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,12 +115,10 @@
   padding: var(--padding-4xs-5) var(--padding-6xs);
   box-sizing: border-box;
 }
-.evaluacin360Opcional {
+.reducirElAusentismo {
   position: relative;
-  line-height: 150%;
-  font-weight: 500;
 }
-.checkGroup {
+.benefitsItems1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -144,7 +134,7 @@
   height: 27px;
   width: 27px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,12 +142,10 @@
   padding: var(--padding-4xs-5) var(--padding-6xs);
   box-sizing: border-box;
 }
-.diseoPersonalizadoDel {
+.estimularLaPredisposicin {
   position: relative;
-  line-height: 150%;
-  font-weight: 500;
 }
-.checkContainer {
+.benefitsItems2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -174,7 +162,7 @@
   height: 27px;
   width: 27px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,12 +170,10 @@
   padding: var(--padding-4xs-5) var(--padding-6xs);
   box-sizing: border-box;
 }
-.evaluacionesContinuasY {
+.fidelizarAlPersonal {
   position: relative;
-  line-height: 150%;
-  font-weight: 500;
 }
-.checkParent1 {
+.benefitsItems3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -204,7 +190,7 @@
   height: 27px;
   width: 27px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -212,12 +198,10 @@
   padding: var(--padding-4xs-5) var(--padding-6xs);
   box-sizing: border-box;
 }
-.desarrolloDeDinmicas {
+.evitarPotencialesDemandas {
   position: relative;
-  line-height: 150%;
-  font-weight: 500;
 }
-.checkParent2 {
+.benefitsItems4 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -234,7 +218,7 @@
   height: 27px;
   width: 27px;
   border-radius: var(--br-11xl);
-  background-color: var(--color-aquamarine);
+  background-color: var(--color-aquamarine-100);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -242,33 +226,72 @@
   padding: var(--padding-4xs-5) var(--padding-6xs);
   box-sizing: border-box;
 }
-.evaluacinFinalY {
+.prevenirQueEmpleados {
+  margin: 0;
+  height: 42px;
+  flex: 1;
   position: relative;
-  line-height: 150%;
-  font-weight: 500;
+  display: inline-block;
+  min-width: 367px;
+  max-width: 100%;
 }
-.checkParent3 {
+.benefitsItems5 {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-base);
+  max-width: 100%;
 }
-.frameDiv,
+.checkIcon6 {
+  width: 13px;
+  height: 10px;
+  position: relative;
+}
+.check6 {
+  height: 27px;
+  width: 27px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-aquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs-5) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.contarConLderes {
+  margin: 0;
+  height: 42px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 367px;
+  max-width: 100%;
+}
+.benefitsItems6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.benefitsList,
 .saberMs {
   font-size: var(--font-size-lg);
 }
-.frameDiv {
+.benefitsList {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-155xl) 0 0;
-  box-sizing: border-box;
   gap: var(--gap-5xl);
   max-width: 100%;
-  color: var(--color-darkslategray-200);
+  color: var(--color-black);
 }
 .saberMs {
   position: relative;
@@ -279,7 +302,7 @@
   display: inline-block;
   min-width: 90px;
 }
-.saberMsWrapper {
+.benefitsButton {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xl-5) var(--padding-21xl);
@@ -292,7 +315,7 @@
   justify-content: center;
   white-space: nowrap;
 }
-.frameGroup {
+.benefitsImage {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-41xl) 0;
@@ -301,14 +324,14 @@
   min-width: 395px;
 }
 .aboutUs,
-.frameGroup,
-.frameParent {
+.aboutUsContent,
+.benefitsImage {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frameParent {
+.aboutUsContent {
   width: 1380px;
   border-radius: var(--br-41xl);
   background-color: var(--color-aliceblue);
@@ -326,7 +349,7 @@
   font-family: var(--font-helvetica-neue);
 }
 @media screen and (max-width: 1350px) {
-  .frameParent {
+  .aboutUsContent {
     padding-right: var(--padding-11xl);
     box-sizing: border-box;
   }
@@ -336,12 +359,12 @@
   .workersMeetingInEngineeringWrapper {
     flex: 1;
   }
-  .frameGroup {
+  .benefitsImage {
     padding-top: var(--padding-20xl);
     padding-bottom: var(--padding-20xl);
     box-sizing: border-box;
   }
-  .frameParent {
+  .aboutUsContent {
     flex-wrap: wrap;
     padding-left: var(--padding-xl);
     padding-top: var(--padding-xl);
@@ -353,40 +376,39 @@
   .workersMeetingInEngineeringWrapper {
     min-width: 100%;
   }
-  .enQuConsisteContainer {
+  .paraQuSirve {
     font-size: var(--font-size-15xl);
     line-height: 48px;
   }
-  .frameContainer {
+  .benefitsDescriptionParent {
     gap: var(--gap-base);
   }
-  .frameDiv {
-    padding-right: var(--padding-68xl);
-    box-sizing: border-box;
-  }
-  .frameGroup {
-    gap: var(--gap-base);
+  .prevenirQueEmpleados {
     min-width: 100%;
   }
-  .frameParent {
+  .benefitsItems5 {
+    flex-wrap: wrap;
+  }
+  .contarConLderes {
+    min-width: 100%;
+  }
+  .benefitsItems6 {
+    flex-wrap: wrap;
+  }
+  .benefitsImage {
+    gap: var(--gap-base);
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .aboutUsContent {
     gap: var(--gap-11xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .enQuConsisteContainer {
+  .paraQuSirve {
     font-size: var(--font-size-6xl);
     line-height: 36px;
-  }
-  .checkParent {
-    flex-wrap: wrap;
-  }
-  .frameDiv {
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .frameGroup {
-    padding-top: var(--padding-6xl);
-    padding-bottom: var(--padding-6xl);
-    box-sizing: border-box;
   }
 }

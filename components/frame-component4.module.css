@@ -1,0 +1,54 @@
+.nivel1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.12em;
+  line-height: 23px;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+}
+.nivel1Wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--color-aquamarine-100);
+  align-self: stretch;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+.nivel1Wrapper:hover {
+  background-color: var(--color-darkseagreen);
+}
+.volunteerActivismIcon {
+  width: 35px;
+  height: 34px;
+  position: relative;
+}
+.frameParent,
+.volunteerActivism {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.volunteerActivism {
+  border-radius: var(--br-xl);
+  background-color: var(--color-aquamarine-200);
+  padding: var(--padding-base);
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}
